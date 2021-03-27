@@ -1,3 +1,3 @@
 <script>
-alert("Howdy! Welcome to My Portfolio Site");
+console.log("Howdy! Welcome to My Portfolio Site");
 </script>
