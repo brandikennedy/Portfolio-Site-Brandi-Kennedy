@@ -136,11 +136,22 @@ nav > ul > li > a:active {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
 .navtoggle li .icon {
   position: absolute;
   padding-right: 0;
   top: 2px;
   font-size: 20px;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 #hero {
   background-color: #ffe4c4;
@@ -157,6 +168,9 @@ nav > ul > li > a:active {
 }
 #contact h2 {
   text-align: center; /*centers text */
+}
+.contact {
+  onclick="menuToggle()"
 }
 .center {
   text-align: center;
