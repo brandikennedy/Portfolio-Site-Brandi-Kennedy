@@ -27,12 +27,11 @@
       <li><a href="about.html">About</a></li>
       <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
       <li><a href="traveli.html">Projects</a></li>
-        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
 </ul>
       </nav>
     </div>
   </div>
-</img>
   </header>
 <!-- For the hero section -->
     <main>
@@ -44,17 +43,21 @@
     </h1>
       <p> I'm a UX/UI Designer with an extensive background in customer relations and a keen eye for aesthetics. </p>
 </div>
+</div>
 <!-- For your work section -->
 <div id="work">
   <div class="container">
+  </div>
+</div>
   <h2> My Work </h2>
   <div class="row">
     <div class="column col-md-6 col-lg-7">
           <picture>
-            <source href="img/Traveli.jpg" media="(max-width:767px)">
+            <source srcset="img/Traveli.jpg" media="(max-width:767px)">
               <img src="img/Traveli.jpg" alt="My Image">
             </picture>
           </div><!-- end first column -->
+        </div><!-- end first row -->
 
             <div class="row"><!-- open second column (used for text) -->
           <div class="column col-md-6 col-lg-5">
@@ -69,10 +72,11 @@
           <div class="row">
             <div class="column col-md-6 col-lg-7">
               <picture>
-                <source href="img/LocalGrocer.jpg" media="(max-width:767px)">
+                <source srcset="img/LocalGrocer.jpg" media="(max-width:767px)">
                   <img src="img/LocalGrocer.jpg" alt="My Image">
                 </picture>
               </div><!-- end first column -->
+            </div><!-- end first row -->
 <div class="row">
   <div class="column col-md-6 col-lg-5">
           <h3> Local Grocer </h3><!-- heading for the project -->
@@ -80,10 +84,9 @@
             A native app that allows users to search, filter, and sort between local producers for groceries in their area.
           </p><!-- end paragraph -->
                 <a href="#" class="button">Read More</a><!-- button or link label -->
-</main>
               </div><!-- end second column -->
             </div><!-- end row that holds (2) columns for project -->
-
+</main>
             <div class="row">
               <div class="column col-md-6 col-lg-7">
                 <svg xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1021,10 +1024,12 @@
 </svg>
 
                     </div><!-- end first column -->
+                  </div><!-- end first row -->
 
 <!-- For your footer -->
 <footer id="contact">
   <div class="container">
+  </div>
   <a href="contact" class="button">Contact</a>
             <h2>Get In Touch</h2>
             <p>
@@ -1038,6 +1043,7 @@
             <div>
               <a href="mailto:brandikenned@gmail.com" class="button contact">Send me an email</a>
             </div>
+          </div>
           </footer>
           <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
