@@ -8,8 +8,8 @@ Secondary Color (Lighth Grey): #848484;
   box-sizing: border-box;
 }
 
-body {
-padding-top: 56px;
+main {
+padding-top: 45px;
 background-color: Dark Grey;
 font-family: 'Noto Sans JP', sans-serif;
 font-size: 18px;
@@ -96,12 +96,9 @@ row {
 #hero h1 {
   text-align: center; /*centers text */
 }
-.center {
-  text-align: center;
-}
 .logo {
   max-width: 150px;
-  min-width: 641px;
+  min-width: 150px;
 }
 header {
   background-color: #ffe4c4;
@@ -136,14 +133,15 @@ nav > ul > li > a:active {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
-.navtoggle.responsive nav {
-  padding: 24px 0 0;
-}
 .navtoggle li .icon {
   position: absolute;
-  padding-right: 0;
+  right: 0;
   top: 2px;
+  padding-right: 0;
   font-size: 20px;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
 }
 .navtoggle.responsive li {
   display: block;
@@ -172,9 +170,6 @@ nav > ul > li > a:active {
 .contact {
   onclick="menuToggle()"
 }
-.center {
-  text-align: center;
-}
 footer {
   text-align: center;
 }
@@ -190,6 +185,9 @@ Medium devices (641px and larger)
     header {
       text-align: unset;
       padding: 20px 0 13px;
+    }
+    .logo {
+      max-width: 641px;
     }
     nav > ul {
       margin: 1em 0;
