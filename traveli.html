@@ -5,42 +5,32 @@
   <script src="https://kit.fontawesome.com/28ef152429.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<head>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-</head>
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?f
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
 <meta name="author" content="Brandi Kennedy">
 <meta name="description" content="Portfolio Site for Brandi Kennedy UX/UI Designer based in Austin,TX">
 <title>About Me</title>
-</head>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-
-<body>
   <!-- For the header -->
   <header>
-    <div>
-    <img src="Brandi/Kennedy/Logo.png" alt="Brandi Kennedy" >
-
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/logo.png" alt="Brandi Kennedy logo">
     <!-- For your work/projects -->
     <nav>
-      <ul>
+      <ul class="navigation">
       <li><a href="index.html">Work</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
       <li><a href="traveli.html">Projects</a></li>
-      <li><a href="javascript:void(0);" class="icon" on click="myFunction()"><i class="fas fa-bars"></i></a></li>
+        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
 </ul>
       </nav>
-      </div>
-      </header>
+    </div>
+  </div>
+  </header>
 <br><br>
       <div id="main">
           <div class="row">
@@ -69,9 +59,9 @@
                       <source href="img/traveli-case-study.pdf" media="(max-width:767px)">
                         <img src="img/traveli-case-study.jpg" alt="Case Study Image" class="expert-project">
                         </picture>
-                      <footer>
                         <footer id="contact">
                           <div class="container">
+                          </div>
                           <a href="contact" class="button">Contact</a>
                                     <h2>Get In Touch</h2>
                                     <p>
@@ -85,7 +75,8 @@
                                     <div>
                                       <a href="mailto:brandikenned@gmail.com" class="button contact">Send me an email</a>
                                     </div>
+                                  </div>
                                   </footer>
-
-                        </html>
+                                  <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
                         <script src="js/scripts.js"></script>
+                        </html>
