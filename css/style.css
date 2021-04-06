@@ -68,7 +68,7 @@ a:focus {
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
-  transition-duration: 0.2s opacity;
+  transition: opacity;
 }
 .button:hover {
   opacity: 0.8;
@@ -168,7 +168,7 @@ nav > ul > li > a:active {
   text-align: center; /*centers text */
 }
 .contact {
-  onclick="menuToggle()"
+  onclick="menuToggle()
 }
 footer {
   text-align: center;
